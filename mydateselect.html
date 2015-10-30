@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+			*{ margin: 0; padding: 0; list-style: none;}
+			.box,.div { width: 800px;margin: 100px auto;}
+			.box input { float: right; height: 34px;}
+			
+			
+		</style>
+		<script src="js/myDate.js"></script>
+		<script>
+			window.onload = function () {
+				var oDiv = document.getElementById("div");
+				var oBtn = document.getElementById("box_btn");
+				myDate("box");
+				myDate(oDiv,3);
+				oBtn.onclick = function () {
+					alert(getmyDate("box"));
+				};
+
+			}
+		</script>
+	</head>
+	<body>
+		<div class="box" id="box">
+			<input type="button" id="box_btn" value="点击获取时间戳" />
+			
+		</div>
+		
+		<div class="div" id="div">
+		
+		</div>
+		
+	</body>
+</html>
