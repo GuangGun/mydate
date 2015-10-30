@@ -1,0 +1,18 @@
+* { margin:0; padding:0; list-style:none}
+.clearfix:after{display: block; content: ""; clear: both;}
+.clearfix{zoom: 1;}
+.my_calendar .calendar_date,.my_calendar .calendar_date span,.my_calendar .calendar_date span strong,.my_calendar .calendar_date span i,.my_calendar .calendar_date ul,.my_calendar .calendar_date ul li { width: auto; height: auto; background: none; border: none; margin: 0; padding: 0; float: none; text-align: left;}
+
+.my_calendar .calendar_date {float: left; height: 34px; line-height: 34px; width: 94px; margin-right: 10px; cursor: pointer; color: #666; text-indent: 10px; }
+.my_calendar .calendar_year { width: 118px;}	
+.my_calendar .calendar_date span {display: block; width: 100%; height: 100%; border: 1px solid #d9d9d9;border-radius: 4px; overflow: hidden; color: #666; font-weight: normal;}	
+.my_calendar .calendar_date span strong { font-weight: normal;}
+.my_calendar .calendar_date span i { float: right; width: 0; height: 0; border-left:7px solid #fff;border-right:7px solid #fff; border-top: 14px solid #b3b3b3; border-bottom: 14px solid #fff; margin:10px;}
+.my_calendar .calendar_date span i.calendar_active {border-top: 16px solid #fff; border-bottom: 16px solid #b3b3b3; margin:10px; margin-top: -7px;}
+.my_calendar .calendar_date ul { display: none; max-height: 238px; overflow: auto; background: #fff; position: relative; z-index: 3; }
+.my_calendar .calendar_date ul.calendar_active { display: block;}
+.my_calendar .calendar_date ul li { height: 34px; line-height: 34px;}
+
+
+
+
